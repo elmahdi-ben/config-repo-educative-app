@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ms-students
+
+message:
+  info: "Configuration MS Students depuis Git"
