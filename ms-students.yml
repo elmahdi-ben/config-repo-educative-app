@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ms-student
+    name: MsStudent
 
 message:
   info: "Configuration MS Students depuis Git"
