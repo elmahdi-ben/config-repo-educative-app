@@ -10,7 +10,7 @@ server:
 
       routes:
         - id: ms-interface
-          uri: lb://ms-interface
+          uri: http://localhost:8083
           predicates:
             - Path=/api/**
 
