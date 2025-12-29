@@ -5,5 +5,16 @@ spring:
   application:
     name: ms-course-exams
 
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms-course-exams_db
+    username: postgres
+    password: mehdi
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 message:
   info: "Configuration MS Courses depuis Git"
