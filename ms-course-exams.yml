@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ms-courses
+    name: ms-course-exams
 
 message:
   info: "Configuration MS Courses depuis Git"
